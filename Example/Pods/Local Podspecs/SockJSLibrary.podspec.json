@@ -1,0 +1,22 @@
+{
+  "name": "SockJSLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SockJSLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/levashov.alexey@gmail.com/SockJSLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "levashov.alexey@gmail.com": "levashov.alexey@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/levashov.alexey@gmail.com/SockJSLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SockJSLibrary/Classes/**/*"
+}

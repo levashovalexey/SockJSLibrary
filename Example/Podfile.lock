@@ -1,0 +1,16 @@
+PODS:
+  - SockJSLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SockJSLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SockJSLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SockJSLibrary: f61ee0a45594b0949cdbe669de07382ed3d4aab0
+
+PODFILE CHECKSUM: 5acb455f1795f7914b4e726b1e20b491b2341439
+
+COCOAPODS: 1.9.3

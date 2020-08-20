@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SockJSLibrary_Example' do
+  pod 'SockJSLibrary', :path => '../'
+
+  target 'SockJSLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
