@@ -484,6 +484,7 @@
 			baseConfigurationReference = 0F79379689927BABDD47856F /* Pods-SockJSLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F52N69662H;
 				INFOPLIST_FILE = SockJSLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -501,6 +502,7 @@
 			baseConfigurationReference = D2C0B1A6D6A29EF65EDAA38F /* Pods-SockJSLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F52N69662H;
 				INFOPLIST_FILE = SockJSLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
