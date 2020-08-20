@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'SockJSLibrary'
+  s.source_files = 'SockJSLibrary/**/*'
   
   # s.resource_bundles = {
   #   'SockJSLibrary' => ['SockJSLibrary/Assets/*.png']
