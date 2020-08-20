@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
   s.swift_versions = "5.0"
 
-  #s.source_files = 'NAME_OF_POD/Classes/**/*'
+  #s.source_files = 'SockJSLibrary/Sources/**/*'
 
   # s.resource_bundles = {
-  #   'sockjslibrary' => ['sockjslibrary/Assets/*.png']
+  #   'SockJSLibrary' => ['SockJSLibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
