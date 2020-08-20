@@ -11,7 +11,10 @@
 		4AB3C1169977E59C1998D8CDE3C50863 /* SockJSLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8D660408C474A05FB4D5EC7D366E43 /* SockJSLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61A245A550135F9118F7C6BF023C1856 /* Pods-SockJSLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163C15DF734499E72244416895ED0429 /* Pods-SockJSLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92DCB7EDA8A005CAD88EEDE84F1A3BC2 /* Pods-SockJSLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A944087C7FD0E2D875FF5F7D2E9B16C /* Pods-SockJSLibrary_Tests-dummy.m */; };
-		A34FD85DBBA35B37BE21DF1E5075F9C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */; };
+		9311E9C224EEB94500DF18C9 /* SockJSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E9BD24EEB93E00DF18C9 /* SockJSService.swift */; };
+		9311E9C324EEB94800DF18C9 /* SockJSServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E9BC24EEB93E00DF18C9 /* SockJSServiceProtocol.swift */; };
+		9311E9C424EEB94900DF18C9 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E9BA24EEB93E00DF18C9 /* WebSocketService.swift */; };
+		9311E9C524EEB94C00DF18C9 /* WebSocketServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E9BB24EEB93E00DF18C9 /* WebSocketServiceProtocol.swift */; };
 		EF76B0AB6CF4F8C9395973B5D3F3228E /* SockJSLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FF4F2D36E01199DDD40C0512963268 /* SockJSLibrary-dummy.m */; };
 		FAB0C455A95FFF1AD7C1D775EE6B5071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,21 +33,24 @@
 		01607C6556BF52804682D0D45DA7D288 /* Pods-SockJSLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05FF4F2D36E01199DDD40C0512963268 /* SockJSLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SockJSLibrary-dummy.m"; sourceTree = "<group>"; };
 		163C15DF734499E72244416895ED0429 /* Pods-SockJSLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SockJSLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SockJSLibrary.framework; path = SockJSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SockJSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF951D812E184CD4C781247C977CC10 /* Pods-SockJSLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SockJSLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A944087C7FD0E2D875FF5F7D2E9B16C /* Pods-SockJSLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SockJSLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		51CF316F3D94056056B6907F34955985 /* SockJSLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SockJSLibrary.modulemap; sourceTree = "<group>"; };
 		663E21569515A80F342DB31148A18EF8 /* SockJSLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SockJSLibrary-prefix.pch"; sourceTree = "<group>"; };
-		7766CCA3433FF673A79328A3E7D9A21B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SockJSLibrary_Tests.framework; path = "Pods-SockJSLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7766CCA3433FF673A79328A3E7D9A21B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SockJSLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849EB2D14B00F9A648EEACC69716696D /* SockJSLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SockJSLibrary-Info.plist"; sourceTree = "<group>"; };
-		8B8B94B8A66BCE26634ED2E1A3F12C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SockJSLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8B8B94B8A66BCE26634ED2E1A3F12C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9311E9BA24EEB93E00DF18C9 /* WebSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocketService.swift; path = SockJSLibrary/Classes/WebSocketService.swift; sourceTree = "<group>"; };
+		9311E9BB24EEB93E00DF18C9 /* WebSocketServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocketServiceProtocol.swift; path = SockJSLibrary/Classes/WebSocketServiceProtocol.swift; sourceTree = "<group>"; };
+		9311E9BC24EEB93E00DF18C9 /* SockJSServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SockJSServiceProtocol.swift; path = SockJSLibrary/Classes/SockJSServiceProtocol.swift; sourceTree = "<group>"; };
+		9311E9BD24EEB93E00DF18C9 /* SockJSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SockJSService.swift; path = SockJSLibrary/Classes/SockJSService.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2CFEBEABA8CA01D2CE1A45F03BF179F /* SockJSLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SockJSLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		A8830182A8A5673CC5D6ED95D17B67DA /* Pods-SockJSLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SockJSLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BB5A8AAE7C1E5D208CFC2CB7C16E1423 /* SockJSLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SockJSLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB5A8AAE7C1E5D208CFC2CB7C16E1423 /* SockJSLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SockJSLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0ADA6D6FC22C07610AD102138CE3724 /* Pods-SockJSLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		D2769DB72D3C9546E566ABFA5106A082 /* Pods-SockJSLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SockJSLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		D3B2FF126D8379C57A18A968C6D865B9 /* Pods-SockJSLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +99,10 @@
 		484CE9CF71DF630EED50FB577A146AD3 /* SockJSLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */,
+				9311E9BD24EEB93E00DF18C9 /* SockJSService.swift */,
+				9311E9BC24EEB93E00DF18C9 /* SockJSServiceProtocol.swift */,
+				9311E9BA24EEB93E00DF18C9 /* WebSocketService.swift */,
+				9311E9BB24EEB93E00DF18C9 /* WebSocketServiceProtocol.swift */,
 				BC9AAC6EA489868EAF1D3CA8B20B75F3 /* Pod */,
 				E9417C03C300617C73FE25A90D79449B /* Support Files */,
 			);
@@ -245,6 +254,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0E6557D4C53018EC3AED42676CB4AB97 = {
+						LastSwiftMigration = 1160;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -295,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34FD85DBBA35B37BE21DF1E5075F9C1 /* ReplaceMe.swift in Sources */,
+				9311E9C224EEB94500DF18C9 /* SockJSService.swift in Sources */,
+				9311E9C424EEB94900DF18C9 /* WebSocketService.swift in Sources */,
 				EF76B0AB6CF4F8C9395973B5D3F3228E /* SockJSLibrary-dummy.m in Sources */,
+				9311E9C524EEB94C00DF18C9 /* WebSocketServiceProtocol.swift in Sources */,
+				9311E9C324EEB94800DF18C9 /* SockJSServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +365,7 @@
 			baseConfigurationReference = D3B2FF126D8379C57A18A968C6D865B9 /* Pods-SockJSLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -370,6 +388,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -429,8 +449,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -505,6 +524,7 @@
 			baseConfigurationReference = 01607C6556BF52804682D0D45DA7D288 /* Pods-SockJSLibrary_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -527,6 +547,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
