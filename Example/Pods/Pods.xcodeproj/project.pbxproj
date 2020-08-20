@@ -7,75 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E734A6A577E486EA15EEC9985514A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		48EF0899CC55914CB1582A8B504CD5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4AB3C1169977E59C1998D8CDE3C50863 /* SockJSLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8D660408C474A05FB4D5EC7D366E43 /* SockJSLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FE1B01D7D4F563ED5CC1A1727991D04 /* Pods-SockJSLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3125790BBCF9F895D3E9D1E5C4E5804C /* Pods-SockJSLibrary_Tests-dummy.m */; };
-		85F341E088E8640D119C5326B3C6906E /* Pods-SockJSLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA2BC40C74594AFE8FD7834977BE6A8 /* Pods-SockJSLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9311E94624EE9E7F00DF18C9 /* WebSocketServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E93E24EE9E7F00DF18C9 /* WebSocketServiceProtocol.swift */; };
-		9311E94724EE9E7F00DF18C9 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E94024EE9E7F00DF18C9 /* WebSocketService.swift */; };
-		9311E94824EE9E7F00DF18C9 /* SockJSServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E94324EE9E7F00DF18C9 /* SockJSServiceProtocol.swift */; };
-		9311E94924EE9E7F00DF18C9 /* SockJSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311E94524EE9E7F00DF18C9 /* SockJSService.swift */; };
-		9B778DD096C0DCBD9694A7A35ABF7F08 /* Pods-SockJSLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A695C4AD0A23967012E2CC3443ABFFE /* Pods-SockJSLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A040F6D96C173C993BC979EE828232FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		61A245A550135F9118F7C6BF023C1856 /* Pods-SockJSLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163C15DF734499E72244416895ED0429 /* Pods-SockJSLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DCB7EDA8A005CAD88EEDE84F1A3BC2 /* Pods-SockJSLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A944087C7FD0E2D875FF5F7D2E9B16C /* Pods-SockJSLibrary_Tests-dummy.m */; };
+		A34FD85DBBA35B37BE21DF1E5075F9C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */; };
 		EF76B0AB6CF4F8C9395973B5D3F3228E /* SockJSLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FF4F2D36E01199DDD40C0512963268 /* SockJSLibrary-dummy.m */; };
-		F2078934DFB9ECB5772EB3DB76B4C54A /* Pods-SockJSLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDD9CDCDD1AAD872F3480B3F5A0E6D2 /* Pods-SockJSLibrary_Example-dummy.m */; };
+		FAB0C455A95FFF1AD7C1D775EE6B5071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8D43550459485E6CDB31680FCCFCAAEF /* PBXContainerItemProxy */ = {
+		D45E13C2B3201F3DCB0491F21930B118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 221F84A3D87CB576A5C45C93F0DCFCE9;
 			remoteInfo = SockJSLibrary;
 		};
-		9B18E8D26BE76547D828AFC69493F77D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1207441119F50CBFE98E327BDD7DB19;
-			remoteInfo = "Pods-SockJSLibrary_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01607C6556BF52804682D0D45DA7D288 /* Pods-SockJSLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05FF4F2D36E01199DDD40C0512963268 /* SockJSLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SockJSLibrary-dummy.m"; sourceTree = "<group>"; };
-		0E8FFEB516F8A217F1E1245E02B5CA14 /* Pods-SockJSLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		20D0E2585E923785E47A1A8B38C10E62 /* Pods-SockJSLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		21C4880E0D2F79BA7F4826CBE36BC3E7 /* Pods-SockJSLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SockJSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3125790BBCF9F895D3E9D1E5C4E5804C /* Pods-SockJSLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SockJSLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		163C15DF734499E72244416895ED0429 /* Pods-SockJSLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SockJSLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SockJSLibrary.framework; path = SockJSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF951D812E184CD4C781247C977CC10 /* Pods-SockJSLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SockJSLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3298765260012CEBF6811D508A431A68 /* Pods-SockJSLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		32C5F7CAA1A545A181E0C2441319B9D7 /* Pods-SockJSLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SockJSLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		5047ED9B376DC84F7B9FC5D18BAE6F62 /* Pods-SockJSLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SockJSLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		3A944087C7FD0E2D875FF5F7D2E9B16C /* Pods-SockJSLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SockJSLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		51CF316F3D94056056B6907F34955985 /* SockJSLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SockJSLibrary.modulemap; sourceTree = "<group>"; };
-		56775077EF90E63A1ABC040D3AB8606F /* Pods-SockJSLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SockJSLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5A695C4AD0A23967012E2CC3443ABFFE /* Pods-SockJSLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SockJSLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		5AA2BC40C74594AFE8FD7834977BE6A8 /* Pods-SockJSLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SockJSLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		663E21569515A80F342DB31148A18EF8 /* SockJSLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SockJSLibrary-prefix.pch"; sourceTree = "<group>"; };
-		7766CCA3433FF673A79328A3E7D9A21B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SockJSLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B7E12775127A2DDA599F6E7A18C2B81 /* Pods-SockJSLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E0E70954248F37879A6714FEDB4DAF7 /* Pods-SockJSLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7766CCA3433FF673A79328A3E7D9A21B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SockJSLibrary_Tests.framework; path = "Pods-SockJSLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849EB2D14B00F9A648EEACC69716696D /* SockJSLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SockJSLibrary-Info.plist"; sourceTree = "<group>"; };
-		8B8B94B8A66BCE26634ED2E1A3F12C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9311E93E24EE9E7F00DF18C9 /* WebSocketServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketServiceProtocol.swift; sourceTree = "<group>"; };
-		9311E94024EE9E7F00DF18C9 /* WebSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
-		9311E94324EE9E7F00DF18C9 /* SockJSServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SockJSServiceProtocol.swift; sourceTree = "<group>"; };
-		9311E94524EE9E7F00DF18C9 /* SockJSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SockJSService.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B8B94B8A66BCE26634ED2E1A3F12C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SockJSLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A2CFEBEABA8CA01D2CE1A45F03BF179F /* SockJSLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SockJSLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		B4F444FDC125A6D749F41083E0D428DB /* Pods-SockJSLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SockJSLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB5A8AAE7C1E5D208CFC2CB7C16E1423 /* SockJSLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SockJSLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDDD9CDCDD1AAD872F3480B3F5A0E6D2 /* Pods-SockJSLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SockJSLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		CA137D0FA375E2331FCB0BF34B570A91 /* Pods-SockJSLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SockJSLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8830182A8A5673CC5D6ED95D17B67DA /* Pods-SockJSLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SockJSLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BB5A8AAE7C1E5D208CFC2CB7C16E1423 /* SockJSLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SockJSLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0ADA6D6FC22C07610AD102138CE3724 /* Pods-SockJSLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		D2769DB72D3C9546E566ABFA5106A082 /* Pods-SockJSLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SockJSLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		D3B2FF126D8379C57A18A968C6D865B9 /* Pods-SockJSLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SockJSLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D98E54134D7253F2E1FA3B1C42ADD246 /* SockJSLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SockJSLibrary.release.xcconfig; sourceTree = "<group>"; };
 		DE8D660408C474A05FB4D5EC7D366E43 /* SockJSLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SockJSLibrary-umbrella.h"; sourceTree = "<group>"; };
-		DF07E29535B574D3640CF612FAD0D181 /* Pods-SockJSLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		E7E7E933A1888AA3D8B5AF8B3849590A /* Pods-SockJSLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		F4DDE026AB01FFE3577EED511158E831 /* Pods_SockJSLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SockJSLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D3FCC6055BD1AEBAF971D2F38D36EC /* Pods-SockJSLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SockJSLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,55 +62,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCF53E01822E6E847082172E32CE1F94 /* Frameworks */ = {
+		7B17FE364D48960319854B6B28B2BA64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A040F6D96C173C993BC979EE828232FA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDFCD9CD67F9ABB6CFC85E0FEB310450 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E734A6A577E486EA15EEC9985514A20 /* Foundation.framework in Frameworks */,
+				FAB0C455A95FFF1AD7C1D775EE6B5071 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08512B9DFBA3E62EC4C609A5BC492759 /* Targets Support Files */ = {
+		3A3590301B3336CE9802899B95B01123 /* Pods-SockJSLibrary_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3250BA1D6B15140AE1021569769B2047 /* Pods-SockJSLibrary_Example */,
-				F2C1870EF03BC51FCB41B3A496A11E0A /* Pods-SockJSLibrary_Tests */,
+				D2769DB72D3C9546E566ABFA5106A082 /* Pods-SockJSLibrary_Tests.modulemap */,
+				2CF951D812E184CD4C781247C977CC10 /* Pods-SockJSLibrary_Tests-acknowledgements.markdown */,
+				F1D3FCC6055BD1AEBAF971D2F38D36EC /* Pods-SockJSLibrary_Tests-acknowledgements.plist */,
+				3A944087C7FD0E2D875FF5F7D2E9B16C /* Pods-SockJSLibrary_Tests-dummy.m */,
+				A8830182A8A5673CC5D6ED95D17B67DA /* Pods-SockJSLibrary_Tests-frameworks.sh */,
+				C0ADA6D6FC22C07610AD102138CE3724 /* Pods-SockJSLibrary_Tests-Info.plist */,
+				163C15DF734499E72244416895ED0429 /* Pods-SockJSLibrary_Tests-umbrella.h */,
+				D3B2FF126D8379C57A18A968C6D865B9 /* Pods-SockJSLibrary_Tests.debug.xcconfig */,
+				01607C6556BF52804682D0D45DA7D288 /* Pods-SockJSLibrary_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3250BA1D6B15140AE1021569769B2047 /* Pods-SockJSLibrary_Example */ = {
-			isa = PBXGroup;
-			children = (
-				32C5F7CAA1A545A181E0C2441319B9D7 /* Pods-SockJSLibrary_Example.modulemap */,
-				B4F444FDC125A6D749F41083E0D428DB /* Pods-SockJSLibrary_Example-acknowledgements.markdown */,
-				7B7E12775127A2DDA599F6E7A18C2B81 /* Pods-SockJSLibrary_Example-acknowledgements.plist */,
-				BDDD9CDCDD1AAD872F3480B3F5A0E6D2 /* Pods-SockJSLibrary_Example-dummy.m */,
-				56775077EF90E63A1ABC040D3AB8606F /* Pods-SockJSLibrary_Example-frameworks.sh */,
-				E7E7E933A1888AA3D8B5AF8B3849590A /* Pods-SockJSLibrary_Example-Info.plist */,
-				5A695C4AD0A23967012E2CC3443ABFFE /* Pods-SockJSLibrary_Example-umbrella.h */,
-				21C4880E0D2F79BA7F4826CBE36BC3E7 /* Pods-SockJSLibrary_Example.debug.xcconfig */,
-				7E0E70954248F37879A6714FEDB4DAF7 /* Pods-SockJSLibrary_Example.release.xcconfig */,
-			);
-			name = "Pods-SockJSLibrary_Example";
-			path = "Target Support Files/Pods-SockJSLibrary_Example";
+			name = "Pods-SockJSLibrary_Tests";
+			path = "Target Support Files/Pods-SockJSLibrary_Tests";
 			sourceTree = "<group>";
 		};
 		484CE9CF71DF630EED50FB577A146AD3 /* SockJSLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				9311E93B24EE9E3B00DF18C9 /* Sources */,
+				9FE21DF41B85A07ACD12128C8F7B906D /* ReplaceMe.swift */,
 				BC9AAC6EA489868EAF1D3CA8B20B75F3 /* Pod */,
 				E9417C03C300617C73FE25A90D79449B /* Support Files */,
 			);
@@ -151,63 +109,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9311E93B24EE9E3B00DF18C9 /* Sources */ = {
+		B03D9CED7867471CE3AA3F4B7E25B7A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9311E94124EE9E7F00DF18C9 /* SockJS */,
-				9311E93C24EE9E7F00DF18C9 /* WebSocket */,
+				78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */,
+				27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		9311E93C24EE9E7F00DF18C9 /* WebSocket */ = {
-			isa = PBXGroup;
-			children = (
-				9311E93D24EE9E7F00DF18C9 /* Protocol */,
-				9311E93F24EE9E7F00DF18C9 /* Service */,
-			);
-			path = WebSocket;
-			sourceTree = "<group>";
-		};
-		9311E93D24EE9E7F00DF18C9 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				9311E93E24EE9E7F00DF18C9 /* WebSocketServiceProtocol.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		9311E93F24EE9E7F00DF18C9 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				9311E94024EE9E7F00DF18C9 /* WebSocketService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		9311E94124EE9E7F00DF18C9 /* SockJS */ = {
-			isa = PBXGroup;
-			children = (
-				9311E94224EE9E7F00DF18C9 /* Protocol */,
-				9311E94424EE9E7F00DF18C9 /* Service */,
-			);
-			path = SockJS;
-			sourceTree = "<group>";
-		};
-		9311E94224EE9E7F00DF18C9 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				9311E94324EE9E7F00DF18C9 /* SockJSServiceProtocol.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		9311E94424EE9E7F00DF18C9 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				9311E94524EE9E7F00DF18C9 /* SockJSService.swift */,
-			);
-			path = Service;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC9AAC6EA489868EAF1D3CA8B20B75F3 /* Pod */ = {
@@ -218,6 +126,14 @@
 				BB5A8AAE7C1E5D208CFC2CB7C16E1423 /* SockJSLibrary.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		BFCE553D2E6174FBAFF38B4E53F97816 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3590301B3336CE9802899B95B01123 /* Pods-SockJSLibrary_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -234,8 +150,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4A4493E0E4E09787F39EF7609FE94ED9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DCD24056B66F0F7AE4DB002D5356331B /* Products */,
-				08512B9DFBA3E62EC4C609A5BC492759 /* Targets Support Files */,
+				B03D9CED7867471CE3AA3F4B7E25B7A0 /* Products */,
+				BFCE553D2E6174FBAFF38B4E53F97816 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,16 +161,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DCD24056B66F0F7AE4DB002D5356331B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F4DDE026AB01FFE3577EED511158E831 /* Pods_SockJSLibrary_Example.framework */,
-				78AD3419229ECDF3AA3D4D437F3F719E /* Pods_SockJSLibrary_Tests.framework */,
-				27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E9417C03C300617C73FE25A90D79449B /* Support Files */ = {
@@ -272,33 +178,9 @@
 			path = "Example/Pods/Target Support Files/SockJSLibrary";
 			sourceTree = "<group>";
 		};
-		F2C1870EF03BC51FCB41B3A496A11E0A /* Pods-SockJSLibrary_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5047ED9B376DC84F7B9FC5D18BAE6F62 /* Pods-SockJSLibrary_Tests.modulemap */,
-				CA137D0FA375E2331FCB0BF34B570A91 /* Pods-SockJSLibrary_Tests-acknowledgements.markdown */,
-				3298765260012CEBF6811D508A431A68 /* Pods-SockJSLibrary_Tests-acknowledgements.plist */,
-				3125790BBCF9F895D3E9D1E5C4E5804C /* Pods-SockJSLibrary_Tests-dummy.m */,
-				DF07E29535B574D3640CF612FAD0D181 /* Pods-SockJSLibrary_Tests-Info.plist */,
-				5AA2BC40C74594AFE8FD7834977BE6A8 /* Pods-SockJSLibrary_Tests-umbrella.h */,
-				0E8FFEB516F8A217F1E1245E02B5CA14 /* Pods-SockJSLibrary_Tests.debug.xcconfig */,
-				20D0E2585E923785E47A1A8B38C10E62 /* Pods-SockJSLibrary_Tests.release.xcconfig */,
-			);
-			name = "Pods-SockJSLibrary_Tests";
-			path = "Target Support Files/Pods-SockJSLibrary_Tests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3277A44742ACF78CCAE506BF234F9D52 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85F341E088E8640D119C5326B3C6906E /* Pods-SockJSLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4035010A52DFBE3063D8B7D4DBF2209E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,11 +189,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A6453117F5851F3456F2B01093C711 /* Headers */ = {
+		FD2FC17DD8E81BBBA18E02BABE2A183A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B778DD096C0DCBD9694A7A35ABF7F08 /* Pods-SockJSLibrary_Example-umbrella.h in Headers */,
+				61A245A550135F9118F7C6BF023C1856 /* Pods-SockJSLibrary_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +202,17 @@
 /* Begin PBXNativeTarget section */
 		0E6557D4C53018EC3AED42676CB4AB97 /* Pods-SockJSLibrary_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A756A600EC6939D60AFC95235114F205 /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Tests" */;
+			buildConfigurationList = FAE3F17F7D6AFB8EBCD22D10F8116B1A /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Tests" */;
 			buildPhases = (
-				3277A44742ACF78CCAE506BF234F9D52 /* Headers */,
-				1B4FEDEC0F76CC5C718018A2FED5C804 /* Sources */,
-				DDFCD9CD67F9ABB6CFC85E0FEB310450 /* Frameworks */,
-				06712E15C963181698AEBFBDAC787D80 /* Resources */,
+				FD2FC17DD8E81BBBA18E02BABE2A183A /* Headers */,
+				0363DDA8E3ACBA9273BD487293415153 /* Sources */,
+				7B17FE364D48960319854B6B28B2BA64 /* Frameworks */,
+				FD8A9F8C94EBEA8E203424058B2A717D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E945716820DFE88461632FFEE3223000 /* PBXTargetDependency */,
+				F4767564FC629AFB0CD3FD82B462D41D /* PBXTargetDependency */,
 			);
 			name = "Pods-SockJSLibrary_Tests";
 			productName = "Pods-SockJSLibrary_Tests";
@@ -355,25 +237,6 @@
 			productReference = 27D2580FF628EFDD2019A18167F8CEE4 /* SockJSLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E1207441119F50CBFE98E327BDD7DB19 /* Pods-SockJSLibrary_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05E14E58BBD0DCE55FCB0DBBA496D4CE /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Example" */;
-			buildPhases = (
-				72A6453117F5851F3456F2B01093C711 /* Headers */,
-				460F4DA77FFF9822A52F79B1AAC93ADA /* Sources */,
-				BCF53E01822E6E847082172E32CE1F94 /* Frameworks */,
-				2F4E0BD7B124E06E5CFE81002193896E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE3F768A9851BD4868F57D9B98B8E2A4 /* PBXTargetDependency */,
-			);
-			name = "Pods-SockJSLibrary_Example";
-			productName = "Pods-SockJSLibrary_Example";
-			productReference = F4DDE026AB01FFE3577EED511158E831 /* Pods_SockJSLibrary_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -392,11 +255,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DCD24056B66F0F7AE4DB002D5356331B /* Products */;
+			productRefGroup = B03D9CED7867471CE3AA3F4B7E25B7A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1207441119F50CBFE98E327BDD7DB19 /* Pods-SockJSLibrary_Example */,
 				0E6557D4C53018EC3AED42676CB4AB97 /* Pods-SockJSLibrary_Tests */,
 				221F84A3D87CB576A5C45C93F0DCFCE9 /* SockJSLibrary */,
 			);
@@ -404,21 +266,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06712E15C963181698AEBFBDAC787D80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F4E0BD7B124E06E5CFE81002193896E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D121EBE9414C134F059145105BA14EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8A9F8C94EBEA8E203424058B2A717D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,23 +283,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B4FEDEC0F76CC5C718018A2FED5C804 /* Sources */ = {
+		0363DDA8E3ACBA9273BD487293415153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE1B01D7D4F563ED5CC1A1727991D04 /* Pods-SockJSLibrary_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		460F4DA77FFF9822A52F79B1AAC93ADA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2078934DFB9ECB5772EB3DB76B4C54A /* Pods-SockJSLibrary_Example-dummy.m in Sources */,
-				9311E94924EE9E7F00DF18C9 /* SockJSService.swift in Sources */,
-				9311E94724EE9E7F00DF18C9 /* WebSocketService.swift in Sources */,
-				9311E94824EE9E7F00DF18C9 /* SockJSServiceProtocol.swift in Sources */,
-				9311E94624EE9E7F00DF18C9 /* WebSocketServiceProtocol.swift in Sources */,
+				92DCB7EDA8A005CAD88EEDE84F1A3BC2 /* Pods-SockJSLibrary_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34FD85DBBA35B37BE21DF1E5075F9C1 /* ReplaceMe.swift in Sources */,
 				EF76B0AB6CF4F8C9395973B5D3F3228E /* SockJSLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,17 +303,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AE3F768A9851BD4868F57D9B98B8E2A4 /* PBXTargetDependency */ = {
+		F4767564FC629AFB0CD3FD82B462D41D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SockJSLibrary;
 			target = 221F84A3D87CB576A5C45C93F0DCFCE9 /* SockJSLibrary */;
-			targetProxy = 8D43550459485E6CDB31680FCCFCAAEF /* PBXContainerItemProxy */;
-		};
-		E945716820DFE88461632FFEE3223000 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SockJSLibrary_Example";
-			target = E1207441119F50CBFE98E327BDD7DB19 /* Pods-SockJSLibrary_Example */;
-			targetProxy = 9B18E8D26BE76547D828AFC69493F77D /* PBXContainerItemProxy */;
+			targetProxy = D45E13C2B3201F3DCB0491F21930B118 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,7 +328,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SockJSLibrary/SockJSLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SockJSLibrary/SockJSLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SockJSLibrary/SockJSLibrary.modulemap";
 				PRODUCT_MODULE_NAME = SockJSLibrary;
@@ -505,76 +343,9 @@
 			};
 			name = Debug;
 		};
-		4673AC7CDA45601083ED3DE56EDD5888 /* Debug */ = {
+		477DDFDA1EC4E9865A1480573D4BB8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C4880E0D2F79BA7F4826CBE36BC3E7 /* Pods-SockJSLibrary_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SockJSLibrary_Example/Pods-SockJSLibrary_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SockJSLibrary_Example/Pods-SockJSLibrary_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		469C9EAE5F19D2E9C1681C4677FC9CF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0E70954248F37879A6714FEDB4DAF7 /* Pods-SockJSLibrary_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SockJSLibrary_Example/Pods-SockJSLibrary_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SockJSLibrary_Example/Pods-SockJSLibrary_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92ECEEDE26DD109CAAB51D511E7A7035 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20D0E2585E923785E47A1A8B38C10E62 /* Pods-SockJSLibrary_Tests.release.xcconfig */;
+			baseConfigurationReference = D3B2FF126D8379C57A18A968C6D865B9 /* Pods-SockJSLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -588,7 +359,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SockJSLibrary_Tests/Pods-SockJSLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SockJSLibrary_Tests/Pods-SockJSLibrary_Tests.modulemap";
@@ -600,11 +371,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -659,7 +429,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -729,9 +500,9 @@
 			};
 			name = Debug;
 		};
-		DCD7E82A81960341499F9592429DCCE8 /* Debug */ = {
+		BE84003D8BBD718A5FBA046D75430752 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8FFEB516F8A217F1E1245E02B5CA14 /* Pods-SockJSLibrary_Tests.debug.xcconfig */;
+			baseConfigurationReference = 01607C6556BF52804682D0D45DA7D288 /* Pods-SockJSLibrary_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -745,7 +516,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SockJSLibrary_Tests/Pods-SockJSLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SockJSLibrary_Tests/Pods-SockJSLibrary_Tests.modulemap";
@@ -757,10 +528,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		EBC10ADF44E4C6C152716DB92998A784 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -778,7 +550,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SockJSLibrary/SockJSLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SockJSLibrary/SockJSLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SockJSLibrary/SockJSLibrary.modulemap";
 				PRODUCT_MODULE_NAME = SockJSLibrary;
@@ -797,15 +569,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05E14E58BBD0DCE55FCB0DBBA496D4CE /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4673AC7CDA45601083ED3DE56EDD5888 /* Debug */,
-				469C9EAE5F19D2E9C1681C4677FC9CF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -815,20 +578,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A756A600EC6939D60AFC95235114F205 /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCD7E82A81960341499F9592429DCCE8 /* Debug */,
-				92ECEEDE26DD109CAAB51D511E7A7035 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AD6F961FF9CBB5A7BE37E565A811CDAB /* Build configuration list for PBXNativeTarget "SockJSLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B54F606CDEA9B335F11413633EBED5 /* Debug */,
 				EBC10ADF44E4C6C152716DB92998A784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE3F17F7D6AFB8EBCD22D10F8116B1A /* Build configuration list for PBXNativeTarget "Pods-SockJSLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477DDFDA1EC4E9865A1480573D4BB8F3 /* Debug */,
+				BE84003D8BBD718A5FBA046D75430752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
