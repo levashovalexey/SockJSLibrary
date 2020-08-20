@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'SockJSLibrary_Example' do
   pod 'SockJSLibrary', :path => '../'
+  pod 'SwiftyJSON'
 
   target 'SockJSLibrary_Tests' do
     inherit! :search_paths
