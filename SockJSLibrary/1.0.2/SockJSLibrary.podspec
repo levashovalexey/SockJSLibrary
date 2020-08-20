@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is SockJS client which can communicate with sockjs servers (https://github.com/sockjs/), implements stomp protocol (https://stomp.github.io/) and use URLSession socket tasks for websocket connection.
                        DESC
 
   s.homepage         = 'https://github.com/levashovalexey/SockJSLibrary'
@@ -29,6 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.osx.deployment_target = '10.15'
+
   s.swift_version = '5.0'
 
   s.source_files = 'SockJSLibrary/**/*'
